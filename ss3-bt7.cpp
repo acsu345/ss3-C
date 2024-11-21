@@ -3,7 +3,7 @@
 int main(){
 	int number, nghin, tram, chuc, donVi;
 	printf("Moi ban nhap mot so co bon chu so:");
-	scanf("%d", number);
+	scanf("%d", &number);
     nghin = number / 1000;
 	int so1 = number % 1000 ;
 	    tram = so1 / 100;
